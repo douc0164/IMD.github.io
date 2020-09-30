@@ -56,7 +56,49 @@
             </table>
             <section>
                 <h3>We'd love to hear from you!</h3>
-                <p>Send us a message</p>
+                <!-- adding a form -->
+                <form action="thanks.html" method="post">
+                    <div>
+                        <label for="fullname">Your Name:</label>
+                        <input type="text" name="fullname" id="fullname" placeholder="John Doe" value="Mr. ">
+                    </div>
+                    <div>
+                        <label for="youremail">Email:</label>
+                        <input type="email" name="youremail" id="youremail" placeholder="danindani@coffeeshop.ca" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="tickets">How many tickets? (sold in pairs)</label>
+                        <input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
+                    </div>
+                    <div>
+                        <label for="row">Select Row:</label>
+                        <select name="row" id="row">
+                            <option value="front">Front</option>
+                            <option value="center" selected>Center</option>
+                            <option value="back">Back</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3>Have you been here before?</h3>
+                        <label for="yes">YES</label>
+                        <input type="radio" name="past" id="yes">
+
+                        <label for="yes">NO</label>
+                        <input type="radio" name="past" id="no">
+                    </div>
+                    <div>
+                        <h3>Policies</h3>
+                        <input type="checkbox" name="policies" id="policies" required>
+                        <label for="policies">I agree to the Terms and Policies.</label>
+                    </div>
+                    <button type="sumbit">Sign me up!</button>
+                </form>
+
             </section>
         </main>
         <hr>
