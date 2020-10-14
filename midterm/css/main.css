@@ -50,7 +50,7 @@ body {
 footer {
     color: black;
     text-align: right;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     background-color: #d9e7e5;}
 
 p {
@@ -87,6 +87,7 @@ form{
     border: 1px solid black;
     margin: 0px 20px 20px 20px}
 div, button {
+    font-size: 18px;
     margin: 20px;}
 
 /* making the input bars longer */
