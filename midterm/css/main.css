@@ -27,17 +27,17 @@ header{
 .navbar {
     display: center; 
     padding: 15px; 
-    background-color:#d9e7e5; 
+    background-color: #d9e7e5; 
     font-family: sans-serif; 
     font-size: 25px;}
 .navbar a { 
-    margin: 50px; 
+    margin: 30px; 
     padding: 15px; 
     color: black; 
     text-decoration: none;
     text-transform: uppercase;}
 .navbar a:hover { 
-    background-color: white; }
+    background-color: white;}
 
 /* body fixings */
 body {
@@ -93,4 +93,9 @@ div, button {
 /* making the input bars longer */
 input[type=text] {width: 100%;}
 input[type=email] {width: 100%;}
-textarea [name="message"] {co: 100%;}
+textarea[type="message"] {width: 100%;}
+
+.back-to-top {
+    margin: 20px;
+    text-decoration: none;
+    color: black;}
