@@ -8,8 +8,7 @@ body {
     color: black; 
     font-family: Arial, Helvetica, sans-serif;
      /*adding background image  */
-     background-image: url("../images/white_brick_wall.png")
-}
+     background-image: url("../images/white_brick_wall.png")}
 header {
     background-color: rgb(148, 172, 191); 
     color: rgb(226, 114, 90) ; 
@@ -59,7 +58,14 @@ nav ul {
     background: rgb(148, 172, 191) url("../images/bread.jpg") no-repeat center center;
     background-size: cover;
     color: white;
-    font-size: 24px;}
+    /* font-size: 24px; */ 
+    /* updating font-size to rem 1.5 x 16 = 24 */
+    font-size: 1.5rem; 
+    /* adding padding to add space between border and content */
+    padding: 1em;
+    width: 50%;
+    
+}
 
 /* child selector or direct child selector */
 article>p {
@@ -88,7 +94,5 @@ section ol li:last-child {font-weight: bold;}
 /* collapse table border into one */
 table {border-collapse: collapse;}
 tbody tr:nth-child(even) {background: rgb(249, 221, 210); }
-table th:nth-child(n), table td:nth-child(n) { border: 1px solid black}
-table td:nth-child(2n+1) {background: rgb(226, 114, 90)}
-
-header .title {color: red;}
+table th:nth-child(n), table td:nth-child(n) { border: 1px solid black; }
+table td:nth-child(2n+1) {background: rgb(226, 114, 90); }
