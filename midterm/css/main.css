@@ -87,7 +87,8 @@ form{
 div, button {
     font-size: 18px;
     margin: 20px;}
-button{background-color: rgb(224, 130, 96);}
+button{
+    background-color: rgb(224, 130, 96);}
 
 /* making the input bars longer */
 input[type=text] {width: 100%;}
