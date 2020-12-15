@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+
+.masthead{
+    background-color: #222;
+}
+
+
+
+
+
+/* BASICS */
+h2{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5% 5% 0% 5%;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2% 0% 2% 0%;
+}
+h4{
+    font-weight: bold;
+}
+hr{
+    border-top: 2px solid #c78c06;
+}
+p{
+    font-size: 14px;
+    padding: 2% 0% 2% 0%;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* navigation */
+.nav-list li{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.nav-list a, .nav-list a:link, .nav-list a:visited{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+.nav-list a:hover, .nav-list a:focus, .nav-list a.current{
+    background-color: #c78c06;
+    color: inherit;
+}
+a, a:link, a:visited {
+    color: #c78c06;
+}
+.search{
+    display: flex;
+}
+input{
+    flex: 118 1 0;
+}
+button{
+    flex: 1 1 0;
+}
+.search input{
+    font-size: 16px;
+    margin:0% 0% 2% 2%;
+    padding:1.5%;
+}
+.search button{
+    text-decoration: none;
+    padding: 7px;
+    border: 1px solid #c78c06;
+    margin:0% 2% 2% 0%;
+}
+.search button, input{
+    width: 100%;
+}
+
+
+
+
+
+/* WELCOME PART */
+.banner{
+    background: grey url("../images/main-banner.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.banner h1{
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    font-weight: bolder;
+    background-color: rgba(34, 34, 34, 0.658);
+}
+.banner h1, p, .btn {
+    padding: 2% 2% 2% 2%;
+}
+.banner p{
+    color: white;
+}
+
+.banner .btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    color: #222;
+    background-color: #c78c06;
+    font-size: 20px;
+    margin: 2% 2% 2% 2%;
+
+}
+/* .btn:hover, .btn:focus{
+    color: inherit;
+} */
+
+
+
+
+
+/* ABOUT US */
+.about{
+    background-color: #ffe6ac ;
+    padding: 5px 5px 5px 5px;
+}
+.about img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.about h2{
+    margin: 0%;
+}
+
+
+
+
+
+/* OUR SERVICES SECTION */
+.card{
+    background-color: #ffe6ac;
+    margin: 2% 5% 2% 5%;
+}
+
+.card .info{
+    padding: 2%;
+}
+.card img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.card .btn{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 30px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.info h3 p{
+    margin: 2%;
+}
+
+
+
+
+
+/* OUR VISION SECTION */
+.vision{
+    background: grey url("../images/vision.jpg") no-repeat center center;
+    background-size: cover;
+}
+.vision h3{
+    color: white;
+    padding: 2% 2% 0% 2%;
+}
+.vision p{
+    color: white;
+    padding: 0% 2% 0% 2%;
+}
+.vision .btn{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 30px;
+    background-color: rgba(34, 34, 34, 0.591);
+    color: white;
+    text-align: center;
+    margin: 2%;
+    border: solid 1px #c78c06;
+}
+
+
+
+
+
+/* CONTACT US SECTION */
+.contact{
+    margin: 5% 5% 5% 5%;
+}
+form input[type=text] {
+    width: 100%;
+    margin: 1% 0% 2% 0%;
+}
+input[type=email] {
+    width: 100%;
+    margin: 1% 0% 2% 0%;
+}
+textarea[id="message"] {
+    width: 100%;
+    margin: 1% 0% 2% 0%;
+}
+button{
+    background-color: #222;
+    color:#c78c06;
+    font-size: 16px;
+    border: none;
+    padding: 1%;
+}
+
+
+
+
+
+/* HOURS OF OPERATION */
+table, th, td{
+    border: 1px solid black;
+    padding: 2%;
+}
+th{
+    background-color: #ffe6ac;
+}
+table{
+    width:100%;
+}
+
+
+
+
+
+/* MAP SECTION */
+iframe{
+    width: 100%;
+}
+
+
+
+
+
+/* FOOTER SECTION */
+footer{
+    background-color: #222;
+    color:#c78c06;
+    padding: 5% 2% 5% 2%;
+    font-size: 12px;
+}
+
+
+
+
+/* COMPUTER SCREEN */
+@media screen and (min-width: 760px) {
+
+header {
+    display: flex;
+    text-align: center;
+    padding: 5%;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    flex: 1;
+}
+}
