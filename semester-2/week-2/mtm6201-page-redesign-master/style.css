@@ -28,6 +28,7 @@ a {
     color: white;
     text-transform: uppercase;
 }
+/* this shows which one you are hovering over by displaying a colour */
 a:hover, a:focus{
     color: #06BEE1;
 }
@@ -80,6 +81,7 @@ button{
     border: 1px solid black;
     border-radius: 4px;
 }
+/* allows the button to change colour while hovered over, helps so responsiveness */
 button:hover, button:focus{
     background-color: #03256C;
     color: white;
