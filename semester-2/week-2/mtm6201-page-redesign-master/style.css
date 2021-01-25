@@ -1,0 +1,94 @@
+/* setting up some basic properties */
+h1, p, nav, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    background-color: #06BEE1;
+}
+p{
+    font-size: 22px;
+}
+
+
+/* changing the whole body background colour */
+body main#main{
+    background-color: white;
+}
+
+
+/* navigation with the links underneath for hovering and focus*/
+body nav#nav{
+    background-color: #03256C;
+    text-align: center;
+    border: none;
+    padding-right: 20px;
+    width: 100%;
+}
+a {
+    color: white;
+    text-transform: uppercase;
+}
+a:hover, a:focus{
+    color: #06BEE1;
+}
+
+
+/* main width for body */
+body main#main{
+    max-width: 75%;
+}
+
+
+body section#home{
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+
+body section#about{
+    background-color: white;
+    padding: 30px;
+    color: black;
+}
+
+section img.about-image{
+    width: 200px;
+}
+
+body section#contact{
+    background-color: white;
+    padding: 30px;
+}
+
+
+/* contact form specifics */
+body form.contact-form{
+    background-color: #06BEE1;
+    padding: 25px, 25px, 25px, 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 75%;
+}
+
+
+/* button changes and w/ the hover focus underneath*/
+button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+button:hover, button:focus{
+    background-color: #03256C;
+    color: white;
+}
+
+/* matching with the nav bar */
+footer{
+    background-color: #03256C;
+    padding: 1em;
+    text-align: right;
+    color: white;
+}
