@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+/*-------------------------------------------------------------
+             BASIC STYLES & MOBILE STYLES
+---------------------------------------------------------------*/
+
 html{
     background: #f7f7ff;
     font-family: 'Montserrat', sans-serif;
@@ -7,7 +11,9 @@ html{
 
 h1{
     font-size: 75px;
+    font-weight: bold;
 }
+
 h2{
     font-size: 40px;
 }
@@ -20,6 +26,7 @@ p{
     font-size:25px;
 }
 
+/* changing image sizes */
 header img{
     width: 180px;
     padding-left: 30px;
@@ -43,6 +50,7 @@ main{
     padding-left: 30px;
 }
 
+/* doing the form format for the apply now section */
 .box{
     border: 1px solid white;
     box-shadow: 5px 5px 8px grey;
@@ -57,6 +65,7 @@ main{
     font-size: 20px;
 }
 
+/* creating the colour and font size for the form lines */
 input[type=text], [type=email]{
     width: 100%;
     padding: 10px 10px;
@@ -73,6 +82,7 @@ input[type=checkbox], label{
     margin-bottom: 15px;
 }
 
+/* creating the button format */
 .btn{
     width: 94%;
     text-decoration: none;
@@ -103,6 +113,7 @@ input[type=checkbox], label{
     padding-left: 2px;
 }
 
+/* footer basics */
 footer{
     background-color: #fffd8c;
     padding-right: 30px;
@@ -119,6 +130,7 @@ footer, input[type=text]{
     margin-right: 10px;
 }
 
+/* chaning the button format to match the footer button */
 footer .btn{
     background-color: #ff8480;
     border: 1px solid #ff8480;
@@ -127,8 +139,9 @@ footer .btn{
     padding: 5px;
     text-align: center;
     width: 97%
-
 }
+
+/* creating grid for the form in footer */
 .bottom{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -153,9 +166,6 @@ footer .btn{
     padding: 20px;
     width: 50px;
 }
-
-
-
 
 
 /*-------------------------------------------------------------
@@ -239,9 +249,6 @@ footer .btn{
 }
 
 
-
-
-
 /*-------------------------------------------------------------
              DESKTOP STYLES 
 ---------------------------------------------------------------*/
@@ -256,6 +263,7 @@ footer .btn{
 
     h1{
         font-size: 75px;
+        font-weight: bold;
     }
 
     h2{
