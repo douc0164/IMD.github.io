@@ -87,7 +87,19 @@ input[type=checkbox], label{
 }
 
 .apply p{
-    font-size: 20px;
+    font-size: 13px;
+}
+.apply{
+    display: flex;
+    justify-content: center;
+    }
+
+.apply .red:nth-child(1){
+    color: black;
+}
+.apply .red:nth-child(2){
+    color: #ff8480;
+    padding-left: 2px;
 }
 
 footer{
