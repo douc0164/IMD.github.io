@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
 
-html,
-body {
+html, body {
   margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
@@ -32,6 +31,7 @@ h4 {
 img {
   display: block;
 }
+
 
 @media (min-width: 960px) {
   .header {
