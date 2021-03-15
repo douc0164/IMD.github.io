@@ -39,6 +39,10 @@ p{
     margin: 0% 5% 0% 5%;
 }
 
+.btn{
+    margin: 0% 5% 0% 5%;
+}
+
 
 
 /* NAV SECTION */
@@ -173,6 +177,7 @@ footer{
     margin-top: 30%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .footer h4{
     font-size: 30px;
@@ -212,7 +217,9 @@ footer :nth-child(2){
     flex-basis: 25%;
     padding: 0% 0% 10% 10%;
 }
-
+.top{
+    justify-content: left;
+}
 .top a, .top a:link, .top a:visited{
     text-decoration: none;
     color: #F2F2F2;
@@ -220,7 +227,7 @@ footer :nth-child(2){
     font-size: 10px;
 }
 .top img {
-    width: 40%;
+    width: 40px;
 }
 
 
@@ -306,7 +313,7 @@ footer :nth-child(2){
     font-weight: bold;
     color: #F2F2F2;
     text-align: center;
-    box-shadow: 5px 10px #3C3B3A;;
+    box-shadow: 5px 10px #3C3B3A;
 }
 .climb .text{
     background-color: rgba(225, 225, 225, 0.899);
@@ -381,4 +388,397 @@ input[type=text], [type=email]{
 }
 iframe{
     width: 100%;
+}
+
+
+
+
+
+/*-------------------------------------------------------------
+             TABLET STYLES 
+---------------------------------------------------------------*/
+@media screen and (min-width: 600px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header img{
+        display: flex;
+        width: 100px;
+        float: left;
+        padding: 0px;
+        margin: 10px;
+    }
+    .nav-list{
+        display: flex;
+        align-items: center;
+    }
+    .nav-list li{
+        padding-left: 40px;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+    }
+    .arc .btn{
+        width: 40%;
+        font-size: 40px;
+        text-align: center;
+        box-shadow: 5px 10px 10px #3C3B3A;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .arc img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .discover img{
+        height: 300px;
+        width: 100%;
+    }
+    .quote{
+        display: flex;
+        padding: 5% 10% 5% 10%;
+    }
+    .quote h2{
+        font-size: 25px;
+    }
+    .quote img{
+        width: 200px;
+    }
+    .entertainment img{
+        height: 300px;
+    }
+
+    footer{
+        height: 200px;
+    }
+
+
+    /* ABOUT PAGE */
+    .construction img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 30px;
+    }
+    .bar{
+        display: block;
+    }
+
+    .break{
+        display: flex;
+    }
+    .break :nth-child(1){
+        flex-basis: 40%;
+    }
+    .break :nth-child(2){
+        flex-basis: 60%;
+    }
+    .bar img{
+        padding-top: 35px;
+        height: 700px;
+        width: 400px;
+    }
+    .friends{
+        display: flex;
+        background-color: rgba(225, 225, 225, 0.899);
+    }
+    .friends img{
+        padding-top: 35px;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: space-between;
+    }
+    .subscribe p{
+        font-size: 30px;
+    }
+    .subscribe .btn{
+        width: 200px;
+        font-size: 30px;
+    }
+    .new{
+        display: flex;
+    }
+    .climb{
+        display: flex;
+        background-color: rgba(225, 225, 225, 0.899);
+    }
+    .brands{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* CONTACT PAGE */
+    .contact img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .box{
+        margin: 50px;
+        padding-bottom: 100px;
+    }
+    .box .btn{
+        width: 200px;
+        float: right;
+    }
+}
+
+
+
+/*-------------------------------------------------------------
+             DESKTOP STYLES 
+---------------------------------------------------------------*/
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 75px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+    h3{
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+    p{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 35px;
+    }
+    
+    .arc{
+        display: flex;
+    }
+    .arc :nth-child(1){
+        flex-basis: 40%;
+    }
+    .arc :nth-child(2){
+        flex-basis: 60%;
+    }
+    .arc img{
+        width: 90%;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+    }
+    .icons :nth-child(1){
+        flex-basis: 25%;
+    }
+    .icons :nth-child(2){
+        flex-basis: 25%;
+    }
+    .icons :nth-child(3){
+        flex-basis: 25%;
+    }
+    .icons :nth-child(4){
+        flex-basis: 25%;
+    }
+    .icons p{
+        font-size: 10px;
+    }
+
+    .discover{
+        display: flex;
+        background-color: rgba(225, 225, 225, 0.899);
+        margin-bottom: 0px;
+    }
+    .discover img{
+        height: 500px;
+        margin: 50px 0px 50px 50px;
+    }
+    .discover h2, h3, p{
+        padding: 0px 50px 0px 50px;
+    }
+    .discover :nth-child(1){
+        flex-basis: 50%;
+    }
+    .discover :nth-child(2){
+        flex-basis: 50%;
+    }
+    .subscribe{
+        display: flex;
+        margin: 50px 0px 50px 50px;
+    }
+    .entertainment{
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .entertainment img{
+        height: 500px;
+        margin: 50px 0px 50px 0px;
+    }
+    .entertainment h2, h3, p{
+        padding: 0px 50px 0px 50px;
+    }
+    .entertainment :nth-child(1){
+        flex-basis: 50%;
+        order: 2;
+    }
+    .entertainment :nth-child(2){
+        flex-basis: 50%;
+        order: 1;
+    }
+
+    /* ABOUT PAGE */
+    .construction{
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .construction :nth-child(1){
+        flex-basis: 50%;
+    }
+    .construction :nth-child(2){
+        flex-basis: 50%;
+    }
+    .WWW{
+        display: flex;
+        padding: 100px;
+        justify-content: space-evenly;
+    }
+    .WWW p{
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px 20px 0px 20px;
+
+    }
+    .WWW h2{
+        padding: 0px 20px 0px 20px;
+    }
+    .WWW :nth-child(1){
+        flex-basis: 33%;
+    }
+    .WWW :nth-child(2){
+        flex-basis: 33%;
+    }
+    .WWW :nth-child(3){
+        flex-basis: 33%;
+    }
+
+    .break{
+        display: flex;
+        padding: 50px;
+    }
+    .break :nth-child(1){
+        flex-basis: 50%;
+    }
+    .break :nth-child(2){
+        flex-basis: 50%;
+    }
+    .break img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .break h2, h3{
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    .friends{
+        display: flex;
+        padding: 50px;
+    }
+    .friends :nth-child(1){
+        flex-basis: 50%;
+    }
+    .friends :nth-child(2){
+        flex-basis: 50%;
+    }
+    .friends img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .friends h2, h3{
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    .subscribe{
+        justify-content: center;
+        padding: 20px;
+        margin: 0px;
+    }
+    .new{
+        display: flex;
+        padding: 50px;
+    }
+    .new :nth-child(1){
+        flex-basis: 50%;
+    }
+    .new :nth-child(2){
+        flex-basis: 50%;
+    }
+    .new img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .new h2, h3{
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    .climb{
+        display: flex;
+        padding: 50px;
+    }
+    .climb :nth-child(1){
+        flex-basis: 50%;
+    }
+    .climb :nth-child(2){
+        flex-basis: 50%;
+    }
+    .climb img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .climb h2, h3{
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    h5{
+        padding-top: 100px;
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 60px;
+    }
+    .brands{
+        display: flex;
+        height: auto;
+        width: 200px;
+        justify-content: space-between;
+    }
+    .brands :nth-child(1){
+        flex-basis: 25%;
+    }
+    .brands :nth-child(2){
+        flex-basis: 25%;
+    }
+    .brands :nth-child(3){
+        flex-basis: 25%;
+    }
+    .brands :nth-child(4){
+        flex-basis: 25%;
+    }
+    
 }
