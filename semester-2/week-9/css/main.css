@@ -291,6 +291,8 @@ footer :nth-child(2){
     background-color: rgba(225, 225, 225, 0.899);
 }
 
+
+/* SUBCRUBE BAR */
 .subscribe{
     background-color: #3C3B3A;
     color:#F2F2F2;
@@ -315,6 +317,7 @@ footer :nth-child(2){
     text-align: center;
     box-shadow: 5px 10px #3C3B3A;
 }
+
 .climb .text{
     background-color: rgba(225, 225, 225, 0.899);
 }
@@ -360,7 +363,7 @@ input[type=text], [type=email]{
     background-color: 	#F0F0F0;
     font-size: 20px;
 }
-
+/* CHANGING THE BUTTON FOR THE FORM */
 .box .btn{
     margin:10px;
     width: 90%;
@@ -433,6 +436,7 @@ li:hover{
         padding: 0px;
         margin: 10px;
     }
+    /* NAV LIST SECTION */
     .nav-list{
         display: flex;
         align-items: center;
@@ -519,6 +523,7 @@ li:hover{
     .friends img{
         padding-top: 35px;
     }
+    /* SUBSCRIBE BAR */
     .subscribe{
         display: flex;
         justify-content: space-between;
@@ -588,7 +593,7 @@ li:hover{
         padding: 0px;
         line-height: 35px;
     }
-    
+    /* HOME PAGE */
     .arc{
         display: flex;
     }
