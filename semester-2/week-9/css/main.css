@@ -390,7 +390,30 @@ iframe{
     width: 100%;
 }
 
+/*-------------------------------------------------------------
+             ANIMATIONS 
+---------------------------------------------------------------*/
+@keyframes color {
+    0% { 
+        background-color: #26A682; 
+        }
+    100% {
+        background-color: #3C3B3A;
+        }
+    }
 
+li:hover{
+    transform: scale(1.5);
+}
+
+.btn:hover{
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: scale(1.1);
+}
 
 
 
@@ -501,11 +524,12 @@ iframe{
         justify-content: space-between;
     }
     .subscribe p{
-        font-size: 30px;
+        font-size: 25px;
     }
     .subscribe .btn{
         width: 200px;
         font-size: 30px;
+        padding: 10px;
     }
     .new{
         display: flex;
@@ -543,24 +567,24 @@ iframe{
 /*-------------------------------------------------------------
              DESKTOP STYLES 
 ---------------------------------------------------------------*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 900px){
     h1{
         font-size: 75px;
         margin-left: 50px;
     }
     h2{
         font-size: 50px;
-        margin: 0px;
+        margin: 50px;
         padding: 0px;
     }
     h3{
         font-size: 40px;
-        margin: 0px;
+        margin: 50px;
         padding: 0px;
     }
     p{
         font-size: 20px;
-        margin: 0px;
+        margin: 00px;
         padding: 0px;
         line-height: 35px;
     }
@@ -602,6 +626,9 @@ iframe{
         background-color: rgba(225, 225, 225, 0.899);
         margin-bottom: 0px;
     }
+    .discover p{
+        margin: 50px;
+    }
     .discover img{
         height: 500px;
         margin: 50px 0px 50px 50px;
@@ -622,6 +649,9 @@ iframe{
     .entertainment{
         display: flex;
         margin-bottom: 0px;
+    }
+    .entertainment p{
+        margin: 50px;
     }
     .entertainment img{
         height: 500px;
@@ -714,10 +744,16 @@ iframe{
     }
 
     .subscribe{
+        display: flex;
         justify-content: center;
-        padding: 20px;
         margin: 0px;
     }
+    .subscribe .btn{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+
     .new{
         display: flex;
         padding: 50px;
@@ -764,9 +800,9 @@ iframe{
     }
     .brands{
         display: flex;
-        height: auto;
-        width: 200px;
         justify-content: space-between;
+        height: 100px;
+        width: auto;
     }
     .brands :nth-child(1){
         flex-basis: 25%;
@@ -780,5 +816,37 @@ iframe{
     .brands :nth-child(4){
         flex-basis: 25%;
     }
+
+    /* CONTACT PAGE */
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 50px 50px 0px 50px;
+        padding: 0px;
+    }
+
+    .location h2{
+        margin: 0px 50px;
+    }
+    .contact :nth-child(1){
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .contact :nth-child(2){
+        grid-column: 4/7;
+    }
+    .contact :nth-child(3){
+        grid-row: 2/2;
+        grid-column: 1/4;
+    }
+    .contact :nth-child(4){
+        grid-row: 2/2;
+        grid-column: 4/7;
+    }
     
+    .box{
+        padding: 40px;
+    }
+
 }
