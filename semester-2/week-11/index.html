@@ -11,8 +11,9 @@
     <title>Bootsrap this</title>
   </head>
   <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- creating the nav for the bootstrap site -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Bootstrap</a>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -21,22 +22,29 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Page 2</a>
+                    <a class="nav-link" href="#">Not Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Page 3</a>
+                    <a class="nav-link" href="#">Again Not Home</a>
                 </li>
             </ul>
         </div>
+        <!-- adding a search bar -->
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
-            <button class="btn btn-outline-info" type="submit">Search</button>
+            <button class="btn btn-info" type="submit">Search</button>
           </form>
         </div>
         
     </nav>
 
     <div class="container">
+    <br><br>
+        <div class="alert alert-dark alert-dismissible fade show" role="alert">
+            <strong>Welcome!</strong> Learn about all the neat things of bootstrap
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
         <h1 class="fst-italic text-info">About Bootstrap</h1>
 
         <div class="text-center">
@@ -47,9 +55,10 @@
         <div class="d-grid gap-2 col-4 mx-auto">
             <button type="button" class="btn btn-outline-info shadow-lg p-3 mb-5 bg-body rounded" >Learn more</button>
         </div>
-
+        
+        <p class="text-center fw-bold">To start by using Bootstrap you will need their Started Template on everypage you create</p>
         <br><br><br>
-
+        <!-- creating a table to display information about bootstrap -->
         <div class="row">
             <div class="col">
                 <h4 class="text-info">Alerts</h4>
@@ -80,7 +89,17 @@
         </div>
 
         <br><br><br>
+        <div class="card bg-dark text-white">
+            <img src="./images/DAN_0185 2.jpeg" class="card-img" alt="flower">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Card Photo</h5>
+                <p class="card-text">This photo and text overlay is using the cards that come with Bootstrap</p>
+            </div>
+        </div>
 
+        <br><br><br>
+
+        <!-- showin options for font transformations of the font -->
         <h2 class="bg-info text-white">Text Transformations</h2>
             <p class="fw-bold">fw-bold</p>
             <p class="fw-bolder">fw-bolder</p>
@@ -90,7 +109,10 @@
             <p class="fst-italic">fst-italic</p>
             <p class="fst-normal">fst-normal</p>
 
-            <h2 class="bg-info text-white">Using Group Buttons</h2>
+        <br><br><br>
+
+        <h2 class="bg-info text-white">Using Group Buttons</h2>
+            <!-- different type of group button options -->
             <div class="btn-toolbar" role="toolbar" aria-label="button groups">
                 <div class="btn-group me-2" role="group" aria-label="First group">
                     <button type="button" class="btn btn-primary">1</button>
@@ -106,11 +128,25 @@
                     <button type="button" class="btn btn-info">7</button>
                     <button type="button" class="btn btn-info">8</button>
                 </div>
-                <div class="btn-group" role="group" aria-label="Fourth group">
+                <div class="btn-group me-2" role="group" aria-label="Fourth group">
                     <button type="button" class="btn btn-outline-secondary">9</button>
                     <button type="button" class="btn btn-outline-secondary">10</button>
                 </div>
+                <!-- creating a dropdown option button -->
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li> 
+                            <a class="dropdown-item" href="#">dropdown 1</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">dropdown 2</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
+        <br><br><br>
 
     </div>
 
