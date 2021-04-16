@@ -261,6 +261,8 @@ input[type=text], [type=email]{
 @media screen and (min-width: 670px){
     header{
         display: flex;
+        justify-content: space-between;
+        margin-right: 0px;
     }
     header img{
         width: 500px;
@@ -326,7 +328,8 @@ input[type=text], [type=email]{
     }
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-right: 100px;
     }
     .copyright p{
         text-align: center;
