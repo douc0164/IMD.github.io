@@ -2,7 +2,7 @@
 
 Creating my web portfolio I used my XD file created for User Experience Design course as the mockup and used the skills we learned in the Responsive Web Design II class. As my skills have evolved since I created the mockup their are a couple changes from the mockup and the final design.
 
-I used basic html files and css with the addition of some animation to make the site more lively.
+I used basic html files and css with the addition of some animation to make the site more lively. The animation is on the social links wshen you hover and on the send button on the contact form. 
 
 A couple challenges I faced were the resizing of the photos and their placement. Since they were different sizes in the moblie layout compared to the desktop layout. The hardest one was on the about me page. Turning the photo of my face from a long rectangle to the square with the text besides. Also I had to figure out how to move the photos down slightly since I made them show the middle.
 
