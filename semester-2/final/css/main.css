@@ -213,7 +213,7 @@ input[type=text], [type=email]{
     font-weight: bold;
     color: #F2F2F2;
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 
@@ -429,16 +429,15 @@ input[type=text], [type=email]{
         display: inline;
     }
     .cp1 img{
-        width: 550px;
+        width: 525px;
     }
     .top{
         margin: 0px 250px 0px 250px;
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
     }
     .box{
-        /* margin: 0px 0px 0px 200px; */
         font-size: 30px;
         margin:  50px 0px;
     }
@@ -455,7 +454,7 @@ input[type=text], [type=email]{
     .contact{
         margin: 30px 200px 0px 200px;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 55% 45%;
         grid-template-rows: 1fr;
     }
     .contact p{
